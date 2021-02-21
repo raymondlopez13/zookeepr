@@ -51,17 +51,17 @@ function createNewAnimal(body, animalsArray) {
 function validateAnimal(animal) {
     if (!animal.name || typeof animal.name !== 'string') {
         return false;
-      }
-      if (!animal.species || typeof animal.species !== 'string') {
+    }
+    if (!animal.species || typeof animal.species !== 'string') {
         return false;
-      }
-      if (!animal.diet || typeof animal.diet !== 'string') {
+    }
+    if (!animal.diet || typeof animal.diet !== 'string') {
         return false;
-      }
-      if (!animal.personalityTraits || !Array.isArray(animal.personalityTraits)) {
+    }
+    if (!animal.personalityTraits || !Array.isArray(animal.personalityTraits)) {
         return false;
-      }
-      return true;
+    }
+    return true;
 }
 app.get('/api/animals', (req, res) => {
     let results = animals;
