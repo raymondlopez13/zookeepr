@@ -126,6 +126,19 @@
         "hungry"
       ],
       "id": "12"
+    },
+    {
+      "name": "Catalina",
+      "species": "dog",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "zany",
+        "anxious",
+        "loving",
+        "goofy"
+      ],
+      "id": "13"
     }
   ]
 }
